@@ -2,3 +2,4 @@ Pillow
 google-auth
 openai
 vertexai
+pydantic

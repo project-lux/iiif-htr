@@ -137,7 +137,6 @@ def model_call(
     except Exception as e:
         return {
             "transcription": response.choices[0].message.content,
-            "human_remains": None
         }
 
 def build_description(data_model):
